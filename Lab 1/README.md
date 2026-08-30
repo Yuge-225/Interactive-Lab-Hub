@@ -53,7 +53,7 @@ Close the lid, and the machine does not disappear. It starts to breathe instead.
 5. Light changes because the laptop is being interacted with
 6. Original student comes back
 
-*Interaction: another person interacts with the device → light responds*
+
 
 ### Storyboard 3 — The light initiates the interaction
 
