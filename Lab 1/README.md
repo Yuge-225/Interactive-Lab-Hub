@@ -1,6 +1,6 @@
 # IDD LAB 1 — The 'Breathing' Sleep Light
 
-**Collaborators:** [Yuge Xu (yx692)] & [Youzhu Jin yj578]
+**Collaborators: Yuge Xu (yx692), Youzhu Jin (yj578)** 
 
 **Masterwork:** The 'Breathing' Sleep Light (Apple laptops, 2000s)
 
@@ -33,7 +33,7 @@ Close the lid, and the machine does not disappear. It starts to breathe instead.
 
 ### Storyboard 1 — Light simply communicates the laptop's state
 
-![Storyboard 1](./images/storyboard-1.jpg)
+![Storyboard 1](./images/storyboard-1.png)
 
 1. Student studying, laptop open
 2. Student finishes and closes laptop
@@ -44,7 +44,7 @@ Close the lid, and the machine does not disappear. It starts to breathe instead.
 
 ### Storyboard 2 — Someone interacts with the laptop while he's away
 
-![Storyboard 2](./images/storyboard-2.jpg)
+![Storyboard 2](./images/storyboard-2.png)
 
 1. Student studying
 2. Student closes laptop and leaves
@@ -57,7 +57,7 @@ Close the lid, and the machine does not disappear. It starts to breathe instead.
 
 ### Storyboard 3 — The light initiates the interaction
 
-![Storyboard 3](./images/storyboard-3.jpg)
+![Storyboard 3](./images/storyboard-3.png)
 
 1. Student studying
 2. Student closes laptop and leaves
@@ -94,7 +94,7 @@ This is why we ended up with three versions of our storyboard. The first was a s
 
 ## Part C. Prototype the Light
 
-
+![PartC](./images/PartC.png)
 
 ---
 
