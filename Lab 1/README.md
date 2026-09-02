@@ -109,20 +109,23 @@ This is why we ended up with three versions of our storyboard. The first was a s
 [Final video sketch](https://drive.google.com/file/d/1PaZeyPPfI2rwBXfLMNF6pYCnSPNnsKAl/view?usp=drive_link)
 
 ---
-
 # Part 2 — ReMastering the light
-
 *This describes the second week's work for this lab activity.*
 
 ## Prep (before the next lab)
 
-Find three other groups. (How? Maybe Slack?) Visit their Lab Hub pages, watch their
-videos, and give them reactions and feedback: tell them what you saw happening,
-guess the masterwork and the goals of the characters, and ask about anything that
-wasn't clear.
+**Groups we kibitzed with:**
+- [Group 1](https://github.com/certaindragon3/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+- [Group 2](https://github.com/zijiz/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md)
+- [Group 3](https://github.com/davidzhanggg/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
 
-**Who were the other groups you kibitzed with? Add links to their project pages here.**
-**Summarize the feedback you got from your partners here.**
+**Summary of feedback we received:**
+
+After watching our video, they were able to guess that our masterwork was a laptop's sleep indicator light, mainly because of the slow pulsing rhythm of the light. They also correctly understood the setting: a student in the library stepping away briefly, not shutting down the laptop completely.
+
+They asked whether the light's color or brightness meant anything different from its rhythm, since they noticed the light looked slightly different in a couple of frames. This made us realize we hadn't fully explained that distinction ourselves, and that the light's meaning was communicated mainly through its slow, repeating pulse rather than through color or brightness changes.
+
+Their main suggestion was to make the light's fade slower and more visible, since subtle brightness changes are harder to notice on video than in person.
 
 ## Remix, Update, or Critique the Master
 
