@@ -127,26 +127,58 @@ They asked whether the light's color or brightness meant anything different from
 
 Their main suggestion was to make the light's fade slower and more visible, since subtle brightness changes are harder to notice on video than in person.
 
+---
+
 ## Remix, Update, or Critique the Master
 
-Now that you understand your masterwork from the inside, respond to it. Do the
-recreation again, but this time make it your own — pick one of these moves (or
-combine them):
+### Design Direction
 
-1. **Remix the modality.** Your recreation no longer has to (just) use light. Use
-   vibration, sound, motion, heat — whatever best carries the interaction. Feel
-   free to fork and modify the Tinkerbelle code. (Add your updates to this lab's folder!)
-2. **Update it.** Redesign the piece for today's context, or for a setting its
-   creators never imagined (the piece with roommates in the room, with children
-   present, on a phone, in a car).
-3. **Fix its weaknesses.** You identified this master's strengths and weaknesses
-   in Part 0 — now address a weakness, or push a strength further.
+For our second iteration, we chose to fix a weakness of the original breathing sleep light. The original design communicates that the laptop is asleep through a slow, gentle pulse, but its feedback is passive and one-directional. It cannot respond when another person approaches or interacts with the laptop.
 
-We will grade this second pass with an emphasis on **creativity** and on how well
-your response engages with what your master was really doing.
+### Our Update
 
-**Document everything here — especially the storyboard and video. Photos of the
-prototype are great too.**
+We added a second breathing-light state. Under normal conditions, the light continues to pulse slowly, representing that the laptop is peacefully asleep. When another person interacts with the laptop, the light changes to red and begins breathing at a faster, more urgent rhythm.
+
+The red color communicates warning, while the faster pulse makes the device appear alert or anxious. This creates a clear contrast between "sleeping normally" and "something requires attention."
+
+### Interaction Sequence
+
+1. The owner closes the laptop and temporarily leaves.
+2. The normal breathing light begins pulsing slowly.
+3. Another student notices and approaches the laptop.
+4. When the student interacts with it, the light turns red and pulses more rapidly.
+5. The student understands the warning and leaves the laptop alone.
+6. The light returns to its normal breathing state.
+
+### Connection to Feedback
+
+Our peers noted that the original brightness changes were difficult to see clearly in the video. In response, we made the second state more visually distinct by changing both its color and breathing speed.
+
+### Storyboard
+
+![Part 2 Storyboard](./images/part2Storyboard.png)
+
+### Prototype
+
+![Part 2 Prototype](./images/part2Prototype.png)
+
+We modified Tinkerbelle to create and remotely control the two breathing-light states. One laptop ran the controller interface while a smartphone acted as the light. Both devices were connected to the same Wi-Fi network.
+
+The controller includes a **Start breathing** button for activating the slow blue sleep state and an **Alert** button for activating the faster red warning state. Separate stop buttons allow the wizard to end either effect. During the video sketch, a hidden team member used these controls to change the phone's light in response to the actors' actions.
+
+**Controller Interface:** The computer interface allows the wizard to start the normal blue breathing light, activate the red alert state, or stop either effect.
+
+### Updated Code
+
+[Lab 1/tinkerbelle-remix](https://github.com/Yuge-225/Interactive-Lab-Hub/tree/Fall2026/Lab%201/tinkerbelle-remix)
+
+### Final Video Sketch
+
+[Watch here](https://drive.google.com/file/d/1-QT_Gn574x3zmgG3VFt4bcYFyD7P_slc/view)
+
+### Reflection
+
+Our redesign preserves the original metaphor of the computer as a living, breathing object, but expands its emotional range. The slow light suggests peaceful sleep, while the rapid red light suggests alertness and discomfort. This makes the device more responsive and gives nearby people clearer feedback about how they should behave.
 
 ---
 
