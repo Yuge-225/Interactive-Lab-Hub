@@ -156,7 +156,7 @@ Our peers noted that the original brightness changes were difficult to see clear
 
 ### Storyboard
 
-![Part 2 Storyboard](./images/part2Storyboard.png)
+![Part 2 Storyboard](./images/part2Storyboard.jpeg)
 
 ### Prototype
 
