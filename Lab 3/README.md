@@ -344,21 +344,47 @@ The system should:
 
 ## Test the system
 
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard *after* the interaction, but we recognize that can be hard.)
+We tested the system with three users.
 
-Answer the following:
+### User 1
+
+User 1 was not familiar with the physical button and was initially unsure how to start the interaction. This suggests that the system needs clearer onboarding before the conversation begins. For example, the device could tell the user which button to press and what the button does.
+
+### User 2
+
+User 2 was able to start the system, but after activation they were unsure what they were supposed to do next. The system did not immediately give enough guidance about what kind of input it expected. A clearer opening prompt, such as “Tell me what you ate today,” would make the interaction easier to understand.
+
+### User 3
+
+User 3 noticed that the system sometimes felt slow. After submitting their food information, they waited for feedback and thought the system had frozen. In reality, the system was calculating the score. Because there was no visible or audible indication of this processing state, the delay looked like a failure.
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+The basic interaction worked: all three users were able to interact with the device using speech and eventually complete the food-reporting flow. Once users understood what to do, speech was a natural input method.
+
+The main problems were onboarding, prompting, and system-state visibility. User 1 did not immediately understand how to use the button. User 2 did not know what to say after the system started. User 3 interpreted the score-calculation delay as the system freezing. These problems suggest that the system should provide clearer instructions at the beginning and clearer feedback during processing.
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
+
+The controller worked well because it allowed us to test the intended interaction before making the system fully autonomous. It let us control the timing and responses and observe how users reacted to the overall flow.
+
+However, the controller did not clearly communicate when the system was processing. This was especially noticeable in User 3's test, where the delay during score calculation appeared to be a system failure. The controller should trigger a visible “thinking” state, LED signal, screen animation, or short spoken message such as “Let me calculate that” whenever there is a noticeable delay.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
+
+The WoZ tests showed that the system should not assume that users already know how to interact with it. User 1's experience showed that the device should explain how to start the interaction. User 2's experience showed that the system should give a clear prompt immediately after activation. User 3's experience showed that the system needs to communicate when it is processing rather than remaining silent.
+
+For a more autonomous version, we would add a short onboarding instruction, an immediate spoken prompt, and clear listening, thinking, and speaking states. The system should also acknowledge longer processing steps so that users know it is still working.
+
+These tests also showed that latency is not only a technical issue but also an interaction-design issue. Even when the system is functioning correctly, unexplained silence can make users think that something has gone wrong.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+
+The system could log each interaction as a sequence of events, including spoken food reports, transcripts, button presses, timestamps, system responses, score calculations, and response latency. This would make it possible to study where users hesitate, wait for prompts, repeat themselves, or become confused.
+
+The three tests also suggest useful events to capture. For example, we could record how long a user waits before pressing the start button, how long they wait before speaking after activation, and how long they wait during score calculation before attempting another action.
+
+Other useful sensing modalities could include camera input, button-event logging, and screen or LED state logging. Camera input could help show whether users are looking at the device or showing signs of confusion during pauses, while button and display logs could help connect user behavior with the state of the interface.
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
