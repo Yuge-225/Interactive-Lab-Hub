@@ -1,14 +1,6 @@
 # Chatterboxes
 
-**Collaborators:** Serena Tsai (ht534), Yuge Xu (yx692), Youzhu Jin (yj578), and Zijii Zhang (zz894).
-
-> **Jiesen Huang.** I tested the Part 1 speech interaction on Orange. Codex
-> assisted with remote setup, scripts, this writeup, and the storyboard illustrations
-> and layout; I provided the speech and listening observations and the coach concept.
-> A friend wrote the three-user test feedback incorporated into Part 2.
-
-> **How to read this page:** my own responses are set in blockquotes like this
-> one, to separate them from the original assignment text.
+**Collaborators:** Serena Tsai (ht534), Yuge Xu (yx692), Youzhu Jin (yj578),Zijii Zhang (zz894), and Jiesen Huang(jh3263).
 
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://youtu.be/LZ0VJClIlRI?si=Yy84mcyVYuVV19mn)
 
