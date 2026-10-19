@@ -19,9 +19,7 @@
 ---
 
 ## Lab Overview
-> Team: Jiesen Huang, Serena Tsai, and Terence Zhang
->
-> Members: Jiesen Huang ([certaindragon3](https://github.com/certaindragon3)), Serena Tsai (ht534, [ht534-ui](https://github.com/ht534-ui)), and Terence Zhang ([TerenceZhang29](https://github.com/TerenceZhang29))
+> Team: Jiesen Huang, Serena Tsai, Terence Zhang, Yuge Xu, Youzhu Jin, Ziji Zhang
 >
 > Project name: Sugar Cube Dropper
 
